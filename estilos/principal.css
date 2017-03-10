@@ -1,0 +1,796 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+em{
+	color: red !important;
+}
+
+.chaveamento .A {display: inline-block; width: 30%; margin-right: 20px; margin-top: 20px;}
+.chaveamento .B {display: inline-block; width: 30%; margin-right: 20px; margin-top: 20px;}
+.chaveamento .C {display: inline-block; width: 30%; margin-right: 20px; margin-top: 20px;}
+.chaveamento .D {display: inline-block; width: 30%; margin-right: 20px; margin-top: 20px;}
+.chaveamento .E {display: inline-block; width: 30%; margin-right: 20px; margin-top: 20px;}
+
+	.chaveamento .criterio {
+        margin-top: 0px !important;
+	    border: 1px solid;
+	    background: white !important;
+	    float: right !important;
+	}
+
+	.chaveamento .geral {
+		margin-top: 100px !important;
+	}
+
+	.chaveamento .col-sm-4 {
+		margin-top: 35px;
+	    min-height: 350px;
+	}
+
+	.chaveamento .col-sm-10 {
+	    margin: auto !important;
+    	float: none !important;
+	}
+
+	.chaveamento .criterio tr {
+		border: 1px solid;
+	}
+
+	.chaveamento .criterio .titulo {
+		background:  #8e1511;
+		color: white;
+	}
+
+	.chaveamento .criterio td {
+		border: 1px solid #000;
+		padding:  3px 10px;
+	}
+
+.chaveamento .primeiro-dia .dia {
+	border: 1px dotted;
+    margin-bottom: 30px !important;
+    width: 60%;
+    margin: auto;
+}
+
+.chaveamento .primeiro-dia .dia div  {
+	padding: 10px 20px;
+	margin-bottom: 0px !important;
+}
+
+.chaveamento .horarios h2 {
+	margin-top: 70px;
+    border-top: 1px solid;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #8e1511;
+    text-transform: uppercase;
+}
+
+.chaveamento .primeiro-dia .dia .horario {
+
+    background: #8e1511;
+    color: white;
+    text-align: center;
+    padding: 5px 10px !important;
+}
+
+
+.chaveamento .conteudo {
+	padding-left: 10px;
+    border: 1px dotted;
+    padding-top: 10px;
+}
+.chaveamento .titulo {
+	background: #8e1511 !important;
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.chaveamento .col-sm-8 h3 {
+	text-align: center;
+    text-transform: uppercase;
+}
+
+
+.cad-membros .button-cancelar {
+	float: none !important;
+}
+
+.cad-membros .button-salvar {
+	float: none !important;
+}
+
+.titulo-pagina h3{
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #8e1511;
+}
+
+.imagem{
+	text-align: center;
+	margin-top: 50px;
+}
+
+	.imagem img{
+		width: 500px;
+		height: 250px;
+	}
+
+.tabela{
+	margin-bottom: 50px !important;
+	width: 900px;
+	height: auto;
+	overflow: visible;
+	border: 1px solid #8e1511;
+	margin-top: 25px;
+}
+
+	.tabela table th{
+		border-bottom: 1px solid #8e1511 !important;
+		text-align: center;
+		background-color: #8e1511;
+		color: white;
+	}
+	
+	.tabela table tbody{
+		border-top: 1px dashed #8e1511;
+	}
+	
+	.tabela table td{
+		text-align: center;
+	}
+	
+		.tabela table td .btn{
+			width: 125px;
+			border-radius: 0 !important;
+		}
+
+.box-usuario .contagem-equipes{
+	color: #8e1511;
+}
+
+.box-equipes{
+	margin-top: 10px;
+}
+
+
+
+.visualiza .box-equipes .panel form .btn {
+	border: 0;
+	background: #8e1511 !important;
+	border-radius: 0 !important;
+}
+
+.visualiza .box-equipes .panel  {
+	text-align: left !important;
+}
+
+.visualiza .box-equipes .equipe {
+    margin-left: 20px;
+    margin-bottom: 40px;
+    border: 1px dotted #8e1511;
+    
+}
+
+.visualiza .box-equipes .equipe span {
+	color: #8e1511;
+}
+
+.visualiza .box-equipes .equipe .glyphicon {
+    padding-right: 10px;
+    font-size: 18px;
+}
+
+.visualiza .box-equipes .equipe h2 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.visualiza .paginacao {
+	text-align: center;
+}
+
+.visualiza .paginacao a {
+	padding: 5px 10px;
+	background: #8e1511;
+	color: white;
+}
+
+.visualiza .paginacao a:hover {
+	text-decoration: none;
+}
+
+   
+.single-equipe .entry-header {
+	height: 180px;
+}
+
+.single-equipe {
+	
+}
+
+.single-equipe .membros {
+	border: 1px dotted #8e1511;
+	padding: 0 5px;
+}
+
+.single-equipe .entry-membro  {
+	margin-top: 50px;
+    background: #8e1511;
+    color: white;
+    text-transform: uppercase;
+}
+
+	.single-equipe .entry-membro h3 {
+		margin: 0;
+	    font-size: 22px;
+	    text-align: center !important;
+	    padding: 5px 0 !important;
+	}
+
+.single-equipe .entry-content .glyphicon{
+	color: #8e1511;
+}
+
+.single-equipe .entry-content .glyphicon:before {
+	font-size: 18px;
+}
+
+.single-equipe .entry-content p {
+	text-align: left !important;
+	margin-bottom: 5px !important;
+	font-weight: 600;
+}
+
+.single-equipe  p {
+	text-align: left !important;
+	margin-bottom: 5px !important;
+	word-wrap: break-word;
+}
+
+.single-equipe h1 {
+	font-weight: 600;
+	text-align: left !important;
+	text-transform: uppercase;
+    font-size: 32px !important;
+}
+
+.single-equipe article {
+	width: 30%;
+    display: inline-block;
+
+}
+
+.single-equipe article .nomeMembro {
+	width: 80% !important;
+    margin-left: -45px !important;
+}
+
+.single-equipe article .ra {
+	width: 80% !important;
+    margin-left: -45px !important;
+}
+
+.single-equipe article .equipe {
+	width: 80% !important;
+    margin-left: -45px !important;
+}
+
+
+.single-equipe article #posicao {
+	width: 80% !important;
+    margin-left: -45px !important;
+}
+
+
+	.single-equipe article .artilheiro span {
+		background: brown !important;
+	    color: white;
+	    padding: 1px 3px;
+	    text-transform: uppercase;
+	    font-size: 12px;
+	    font-weight: 600;
+	    border-radius: 5px;
+	    padding: 0 5px;
+	}
+
+	.single-equipe article .passador span {
+		background: cadetblue !important;
+	    color: white;
+	    padding: 1px 3px;
+	    text-transform: uppercase;
+	    font-size: 12px;
+	    font-weight: 600;
+	    border-radius: 5px;
+	    padding: 0 5px;
+	}
+
+	.single-equipe article .goleiro span {
+		background: yellowgreen !important;
+	    color: white;
+	    padding: 1px 3px;
+	    text-transform: uppercase;
+	    font-size: 12px;
+	    font-weight: 600;
+	    border-radius: 5px;
+	    padding: 0 5px;
+	}
+
+	.single-equipe article .Finalizador span {
+		background:  #5cb85c !important;
+	    color: white;
+	    padding: 1px 3px;
+	    text-transform: uppercase;
+	    font-size: 12px;
+	    font-weight: 600;
+	    border-radius: 5px;
+	    padding: 0 5px;
+	}
+
+	.single-equipe article .Fixo span {
+		background:  #f0ad4e !important;
+	    color: white;
+	    padding: 1px 3px;
+	    text-transform: uppercase;
+	    font-size: 12px;
+	    font-weight: 600;
+	    border-radius: 5px;
+	    padding: 0 5px;
+	}
+
+
+
+	.single-equipe article .mucha span {
+		background: springgreen !important;
+	    color: white;
+	    padding: 1px 3px;
+	    text-transform: uppercase;
+	    font-size: 12px;
+	    font-weight: 600;
+	    border-radius: 5px;
+	    padding: 0 5px;
+	}
+
+	.single-equipe article .ruim span {
+		background: black !important;
+	    color: white;
+	    padding: 1px 3px;
+	    text-transform: uppercase;
+	    font-size: 12px;
+	    font-weight: 600;
+	    border-radius: 5px;
+	    padding: 0 5px;
+	}
+
+	.single-equipe article .Goleiro span {
+		background: blueviolet; !important;
+	    color: white;
+	    padding: 1px 3px;
+	    text-transform: uppercase;
+	    font-size: 12px;
+	    font-weight: 600;
+	    border-radius: 5px;
+	    padding: 0 5px;
+	}
+
+	.single-equipe article .Marcador span {
+		background: #ff003d !important;
+	    color: white;
+	    padding: 1px 3px;
+	    text-transform: uppercase;
+	    font-size: 12px;
+	    font-weight: 600;
+	    border-radius: 5px;
+	    padding: 0 5px;
+	}
+
+	.single-equipe article .Passador span {
+		background: yellow !important;
+	    color: black;
+	    padding: 1px 3px;
+	    text-transform: uppercase;
+	    font-size: 12px;
+	    font-weight: 600;
+	    border-radius: 5px;
+	    padding: 0 5px;
+	}
+
+
+	.single-equipe article .Direito span {
+		background: cyan !important;
+	    color: black;
+	    padding: 1px 3px;
+	    text-transform: uppercase;
+	    font-size: 12px;
+	    font-weight: 600;
+	    border-radius: 5px;
+	    padding: 0 5px;
+	}
+
+	.single-equipe article .Esquerdo span {
+		background: #555; !important;
+	    color: white;
+	    padding: 1px 3px;
+	    text-transform: uppercase;
+	    font-size: 12px;
+	    font-weight: 600;
+	    border-radius: 5px;
+	    padding: 0 5px;
+	}
+
+
+
+
+.single-equipe header .foto {
+	background-repeat: no-repeat;
+	background-size: cover !important;
+    height: 200px;
+    width: 200px;
+    margin-right: 20px;
+    float: left;
+    background-position: 50% 50% !important;
+    border: 5px solid #8e1511;;
+    border-radius: 5px;
+}
+	
+
+.menu-body{
+	padding-top: 70px;
+}
+
+menu .nav-menu{
+	border-radius: 0 !important;
+	background-color: #8e1511;
+	border-color: #8e1511;
+}
+
+	menu .nav-menu ul li a{
+		color: rgba(255,255,255,1.00) !important;
+	}
+	
+	menu .nav-menu ul li a:hover{
+		color: rgba(255,255,255,1.00) !important;
+		font-size: 16px;
+	}
+	
+		menu .nav-menu ul li a span{
+			border-radius: 50px;
+			padding: 2px 5px 2px 5px;
+			background-color: white;
+			color: #8e1511;
+		}
+	
+	menu .nav-menu .ul-right{
+		margin-right: 25px;
+		font-size: 14px;
+	}
+
+.index-titulo{
+	margin-top: 2.5%;
+	width: 1050px;
+	height: 125px;
+	padding-top: 5px;
+	background-color: #8e1511;
+}
+
+	.index-titulo h2{
+		color: rgba(255,255,255,1.00);
+	}
+	
+	.index-titulo p{
+		width: 1050px;
+		height: 30px;
+		margin-top: 5px;
+		background-color: rgba(255,255,255,1.00);
+	}
+
+.index-style{
+	margin-top: 2.5%;
+	width: 1050px;
+}
+
+	.index-style .regras-box{
+		margin-bottom: 2.5%;
+		width: 1050px;
+		height: 350px;
+		overflow: scroll;
+		border: 1px dotted #8e1511;
+		padding: 5px;
+	}
+	
+		.index-style .regras-box p{
+			margin-top: 15px;
+		}
+		
+		.index-style .regras-box hr{
+			width: 900px;
+			border-color: #8e1511;
+			margin-top: -5px;
+		}
+	
+		.index-style .regras-box .regras{
+			text-align: left;
+			margin-left: 5px;
+		}
+		
+			.index-style .regras-box .regras h4{
+				color: #8e1511;
+				margin-top: 10px;
+				margin-bottom: -15px;
+			}
+	
+		.index-style .regras-box .download-regulamento{
+			text-decoration: none;
+			border: 0;
+			color: #8e1511;
+			background-color: rgba(255,255,255,1.00) !important; 
+			cursor: pointer;
+		}
+		
+		.index-style .regras-box .download-regulamento:hover{
+			font-size: 16px;
+			text-decoration: underline;
+		}
+	
+	.index-style a{
+		background-color: #8e1511;
+		color: rgba(255,255,255,1.00);
+		border: 1px solid #8e1511;
+		border-radius: 0 !important;
+		margin: 5px;
+	}
+	
+	.index-style a:hover{
+		background-color: rgba(255,255,255,1.00) !important;
+		color: #8e1511;
+	}
+	
+	.index-style .primeiro-acesso{
+		background-color: rgba(14,149,224,1.00);
+		border-color: rgba(14,149,224,1.00);
+	}
+	
+	.index-style .primeiro-acesso:hover{
+		background-color: rgba(255,255,255,1.00);
+		border-color: rgba(14,149,224,1.00);
+		color: rgba(14,149,224,1.00);
+	}
+	
+.login{
+	margin-top: 2.5%;
+	width: 600px;
+	height: 180px;
+	border-radius: 0 !important;
+	border-color: #8e1511;
+}
+
+	.login .login-titulo{
+		background-color: #8e1511;
+		border-color: #8e1511;
+		color: rgba(255,255,255,1.00);
+	}
+	
+	.login .campos-login{
+		width: 550px;
+	}
+	
+		.login .campos-login input{
+			border-radius: 0 !important;
+			border-color: #8e1511;
+			margin-bottom: 5px;
+		}
+		
+		.login .campos-login .button-acessar{
+			width: 550px;
+			color: rgba(255,255,255,1.00);
+			background-color: rgba(80,253,95,1.00);
+			border-color: rgba(80,253,95,1.00);
+		}
+		
+		.login .campos-login .button-acessar:hover{
+			background-color: rgba(2,245,23,1.00);
+			border-color: rgba(2,245,23,1.00);
+		}
+	
+.alert-required{
+	margin-top: 2.5%;
+	width: 1050px;
+	color: #8e1511;
+	border-color: rgba(255,255,255,1.00);
+	border-radius: 0 !important;
+	background-color: rgba(255,255,255,1.00);
+}
+
+.alert-warning a{
+	color: black;
+	text-decoration: none;
+}
+
+.alert-warning a:hover{
+	color: rgba(0,13,255,1.00);
+	cursor: pointer;
+}
+
+.alert-danger{
+	width: 550px;
+	border-radius: 0;
+}
+
+	.alert-danger a{
+		color: black;
+		text-decoration: none;
+	}
+	
+	.alert-danger a:hover{
+		color: rgba(0,13,255,1.00);
+		cursor: pointer;
+	}
+
+.form-box{
+	width: 1050px;
+	border-radius: 0 !important;
+	border: 2px solid #8e1511;
+	margin-top: 2.5%;
+}
+
+	.form-box .form-titulo{
+		background-color: #8e1511;
+		border-radius: 0 !important;
+	}
+		
+		.form-box .form-titulo h3{
+			color: rgba(255,255,255,1.00);
+		}
+		
+.form-fields-left{
+	width: 500px;
+	height: auto;
+	border: 1px dotted #8e1511;
+	float: left;
+	padding: 5px;
+}
+
+	.form-fields-left label{
+		width: 500px;
+		float: left;
+		text-align: left;
+		margin-bottom: 25px;
+	}
+	
+		.form-fields-left label p{
+			color: #8e1511;
+		}
+		
+		.form-fields-left label input{
+			border-color: #8e1511;
+			border-radius: 0 !important;
+		}
+		
+		.form-fields-left label select{
+			border-color: #8e1511;
+			border-radius: 0 !important;
+		}
+		
+		.form-fields-left label textarea{
+			border-color: #8e1511;
+			border-radius: 0 !important;
+			height: 250px;
+		}
+
+.form-fields-right{
+	width: 500px;
+	height: auto;
+	border: 1px dotted #8e1511;
+	float: right;
+	padding: 5px;
+}
+
+	.form-fields-right label{
+		width: 500px;
+		float: left;
+		text-align: left;
+		margin-bottom: 25px;
+	}
+	
+		.form-fields-right label p{
+			color: #8e1511;
+		}
+		
+		.form-fields-right label input{
+			border-color: #8e1511;
+			border-radius: 0 !important;
+		}
+		
+		.form-fields-right label select{
+			border-color: #8e1511;
+			border-radius: 0 !important;
+		}
+		
+		.form-fields-right label textarea{
+			border-color: #8e1511;
+			border-radius: 0 !important;
+			height: 250px;
+		}
+		
+.form-button{
+	margin-top: 10px;
+	width: 1018px;
+	background-color: rgba(255,255,255,1.00);
+}
+
+	.form-button a, input{
+		width: 330px;
+		border-radius: 0 !important;
+	}
+	
+	.form-button .button-voltar{
+		color: rgba(255,255,255,1.00);
+		background-color: rgba(81,127,253,1.00);
+		border-color: rgba(81,127,253,1.00);
+		margin-right: 15px;
+	}
+	
+		.form-button .button-voltar:hover{
+			background-color: rgba(14,78,252,1.00);
+			border-color: rgba(14,78,252,1.00);
+		}
+		
+	.form-button .button-salvar{
+		color: rgba(255,255,255,1.00);
+		background-color: rgba(80,253,95,1.00);
+		border-color: rgba(80,253,95,1.00);
+		margin-right: 15px;
+	}
+	
+		.form-button .button-salvar:hover{
+			background-color: rgba(2,245,23,1.00);
+			border-color: rgba(2,245,23,1.00);
+		}
+		
+	.form-button .button-cancelar{
+		color: rgba(255,255,255,1.00);
+		background-color: rgba(253,64,64,1.00);
+		border-color: rgba(253,64,64,1.00);
+	}
+	
+		.form-button .button-cancelar:hover{
+			background-color: rgba(252,3,3,1.00);
+			border-color: rgba(252,3,3,1.00);
+		}
+		
+.link{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}	
+	
+	.link a{
+		text-decoration: none;
+		color: #8e1511;
+	}
+	
+	.link a:hover{
+		font-size: 16px;
+	}
+	
+.modal-footer .btn{
+	width: 100px;
+}	
+	
+footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #8e1511;
+}
+
+	footer p{
+		color: white;
+		margin-top: 10px;
+		font-size: 16px;
+	}
